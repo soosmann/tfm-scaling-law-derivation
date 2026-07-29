@@ -3,10 +3,9 @@ import json
 from pathlib import Path
 
 import numpy as np
-
-from utils import scaling_law, extract_nested
-
 from tqdm import tqdm
+
+from utils import extract_nested, scaling_law
 
 USE_LCBENCH = True
 
